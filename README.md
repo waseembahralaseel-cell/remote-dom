@@ -1,4 +1,4 @@
-        # Remote DOM
+          #Remote DOM
 
 Remote DOM lets you take a tree of [DOM elements](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_Document_Object_Model) created in a sandboxed JavaScript environment, and render them to the DOM in a different JavaScript environment. This allows you to isolate potentially-untrusted code off the [main thread](https://developer.mozilla.org/en-US/docs/Glossary/Main_thread), but still allow that code to render a controlled set of UI elements to the main page.
 
